@@ -14,9 +14,7 @@ namespace Pure.Systems
             public float deltaTime;
 
             public void Execute(ref Speed speed, ref PlayerInput input, ref Position position)
-            {
-                
-
+            {                
                 position.Value.x += speed.Value * input.horizontal * deltaTime;
             }
         }

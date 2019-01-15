@@ -41,7 +41,7 @@ namespace AmaranthineFields
                     entityManager.SetSharedComponentData(entity, new MeshInstanceRenderer
                     {
                         mesh = mesh,
-                        material = material
+                        material = new Material(material)
                     });
                 }
             }
