@@ -2,5 +2,5 @@
 
 public struct TileDisplayValue : IComponentData
 {
-    public float Value;
+    public int Value;
 }

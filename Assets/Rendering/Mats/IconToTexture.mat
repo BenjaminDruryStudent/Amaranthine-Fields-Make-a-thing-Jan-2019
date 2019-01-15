@@ -26,7 +26,7 @@ Material:
     - Vector1_9CBB4414: 32
     - Vector1_C4BB5B18: 512
     - Vector1_F7567591: 1
-    - _icon_texture_index: 1
+    - _icon_texture_index: 0
     m_Colors:
     - Color_3EAE56FA: {r: 0, g: 1, b: 0.02261782, a: 0}
     - _icon_texture_colour: {r: 0, g: 1, b: 0.02261782, a: 0}
