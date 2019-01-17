@@ -13,15 +13,6 @@ public class TileBuilder : MonoBehaviour {
     public float xCardSize { get { return .01f * spritePixelsX; } }
     public float yCardSize { get { return .01f * spritePixelsY; } }
 
-    // Use this for initialization
-    void Start () {
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     [ContextMenu("Clear")]
     public void Remove()
     {

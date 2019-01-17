@@ -52,6 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fcd2c14a42eb469f6ad63798295f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plantStates: {fileID: 0}
+  cards: []
+  cardData: []
 --- !u!114 &114284740086320442
 MonoBehaviour:
   m_ObjectHideFlags: 1
