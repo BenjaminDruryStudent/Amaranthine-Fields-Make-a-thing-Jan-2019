@@ -28,8 +28,8 @@ namespace AmaranthineFields
                 for (int x = 0; x < size; x++)
                 {
                     Entity entity = entityManager.CreateEntity(entityArchetype);
-
                     entityManager.SetComponentData(entity, new TileDisplayValue { Value = 0});
+
                 }
             }
         }

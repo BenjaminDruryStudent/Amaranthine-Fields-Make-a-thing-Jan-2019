@@ -10,7 +10,7 @@ public class TileDisplayValueSystem : JobComponentSystem
         public int add;
         public void Execute(ref TileDisplayValue tileDisplay)
         {
-            tileDisplay.Value += add;
+            tileDisplay.Value = add;
         }
     }
 
@@ -18,7 +18,7 @@ public class TileDisplayValueSystem : JobComponentSystem
     {
         TileDisplayJob job = new TileDisplayJob
         {
-            add = 1
+            add = Mathf.FloorToInt(Random.Range(0, 7))
         };
         return job.Schedule(this, inputDeps);
     }
